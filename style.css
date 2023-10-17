@@ -1,14 +1,15 @@
 #container {
-    background: rgb(255,147,48);
-    background: linear-gradient(90deg, rgba(255,147,48,1) 27%, rgba(255,255,255,1) 48%, rgba(19,136,8,1) 80%);
+    background: rgb(255, 147, 48);
+    background: linear-gradient(90deg, rgba(255, 147, 48, 1) 27%, rgba(255, 255, 255, 1) 48%, rgba(19, 136, 8, 1) 80%);
     -webkit-background-clip: text;
+    background-clip: text; /* Standard property for compatibility */
     color: transparent;
     font-size: 70px;
     font-weight: bold;
     -webkit-text-fill-color: transparent;
-    border: 2px solid #000080 ;
+    border: 2px solid #000080;
     border-radius: 30px;
-}
+  }
 
 body {
   margin: 40px;
